@@ -133,7 +133,7 @@ typeof x; // ReferenceError
 let x;
 ```
 
-上面代码中，变量`x`使用`let`命令声明，所以在声明之前，都属于`x`的“死区”，只要用到该变量就会报错。因此，`typeof`运行时就会抛出一个`ReferenceError`。
+上面代码中，变量`x`使用`let`命令声明，所以在声明之前，都属于`x`的“死区”，只要用到该变量就会报错。因此，`typeof`运行时就会抛出一个`ReferenceErrorq`。
 
 作为比较，如果一个变量根本没有被声明，使用`typeof`反而不会报错。
 
